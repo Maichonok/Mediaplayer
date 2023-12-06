@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playlist MyTopSongs</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nameplaylist">
+      <a href="index.html"
+        ><span class="material-icons"> chevron_left </span></a
+      >
+      <h1>New Year's Eve playlist</h1>
+      <a href="#"><span class="material-icons"> menu </span></a>
+    </header>
+    <main class="divided">
+      <section class="playlist">
+        <div class="song song1">
+          <img src="images/WH.jpeg" alt="" class="playlist_image" />
+          <h2>I Wanna Dance With Somebody - Whitney Houston</h2>
+          <a href="#"><span class="material-icons"> play_circle </span></a>
+        </div>
+        <div class="song song2">
+          <img src="images/WtM.jpeg" alt="" class="playlist_image" />
+          <h2>Shut Up And Dance - WALK THE MOON</h2>
+          <span class="material-icons"> play_circle </span>
+        </div>
+        <div class="song song3">
+          <img src="images/Pink.jpeg" alt="" class="playlist_image" />
+          <h2>Raise Your Glass - P!nk</h2>
+          <span class="material-icons"> play_circle </span>
+        </div>
+        <div class="song song4">
+          <img src="images/Prince.jpeg" alt="" class="playlist_image" />
+          <h2>1999 - Prince</h2>
+          <span class="material-icons"> play_circle </span>
+        </div>
+        <div class="song song5">
+          <img src="images/Outkast.jpeg" alt="" class="playlist_image" />
+          <h2>Hey Ya! - OutKast</h2>
+          <span class="material-icons"> play_circle </span>
+        </div>
+      </section>
+      <section class="mediaplayer">
+        <img src="images/WH.jpeg" alt="" class="mediaplayer_image" />
+        <div class="description">
+          <span class="material-icons"> add_circle </span>
+          <h3>I Wanna Dance With Somebody - Whitney Houston</h3>
+          <a href="#"><span class="material-icons"> favorite </span></a>
+        </div>
+        <div id="audio-controls" data-state="hidden">
+            <div class="progress">
+              <progress id="progress" value="0" min="0">
+                <span id="progress-bar"></span>
+              </progress>
+            </div>
+            <div class="controls">
+                <span class="material-icons"> replay_10 </span>
+                <span class="material-icons"> fast_rewind </span>
+                <span class="material-icons"> play_circle </span>
+                <span class="material-icons"> fast_forward </span>
+                <span class="material-icons"> forward_10 </span>
+            </div>
+          </div>
+      </section>
+    </main>
+  </body>
+  <footer class = "copyright">
+    <p>
+      &copy; 2023. Created for
+      <a href="https://www.lexicon.se/" target="_blank">LEXICON </a>
+    </p>
+  </footer>
+</html>

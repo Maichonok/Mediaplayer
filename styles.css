@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 10px;
+  background-color: #37394d;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex: 50% 50%;
+}
+
+.nameplaylist {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+.song {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+}
+
+.playlist_image {
+  width: 25%;
+}
+
+.mediaplayer_image {
+  width: 100%;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  padding-bottom: 1px;
+  color: #fff;
+}
+
+a:hover,
+a:active {
+  color: #2f378e;
+}
+
+.description {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.divided {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.progress {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+footer {
+    padding: 20px;
+  }
+  
+  .copyright {
+    font-size: 18px;
+    text-align: center;
+  }
+  
